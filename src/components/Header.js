@@ -13,7 +13,7 @@ function Header() {
                     </div>
                     <nav className="menuHeader">
                         <a href="#inicio">Inicio</a>
-                        <a href="#catalogoSeccionado">Catalogo</a>
+                        <a href="#catalogoSeccionado">Catálogo</a>
                         <a href="#nosotros">Sobre Nosotros</a>
                         <a href="#contactanos">Contactanos</a>
                     </nav>
