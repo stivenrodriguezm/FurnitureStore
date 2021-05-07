@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/FurnitureStore/static/css/main.af0973ba.chunk.css",
+    "main.js": "/FurnitureStore/static/js/main.9199f85b.chunk.js",
+    "main.js.map": "/FurnitureStore/static/js/main.9199f85b.chunk.js.map",
+    "runtime-main.js": "/FurnitureStore/static/js/runtime-main.4632ca10.js",
+    "runtime-main.js.map": "/FurnitureStore/static/js/runtime-main.4632ca10.js.map",
+    "static/js/2.2c62bb53.chunk.js": "/FurnitureStore/static/js/2.2c62bb53.chunk.js",
+    "static/js/2.2c62bb53.chunk.js.map": "/FurnitureStore/static/js/2.2c62bb53.chunk.js.map",
+    "static/js/3.84a29d1c.chunk.js": "/FurnitureStore/static/js/3.84a29d1c.chunk.js",
+    "static/js/3.84a29d1c.chunk.js.map": "/FurnitureStore/static/js/3.84a29d1c.chunk.js.map",
+    "index.html": "/FurnitureStore/index.html",
+    "static/css/main.af0973ba.chunk.css.map": "/FurnitureStore/static/css/main.af0973ba.chunk.css.map",
+    "static/js/2.2c62bb53.chunk.js.LICENSE.txt": "/FurnitureStore/static/js/2.2c62bb53.chunk.js.LICENSE.txt",
+    "static/media/INTERMUEBLES19.65569c57.webp": "/FurnitureStore/static/media/INTERMUEBLES19.65569c57.webp",
+    "static/media/styles.css": "/FurnitureStore/static/media/INTERMUEBLES85.52131dd3.webp",
+    "static/media/comedor1.525ce3b8.webp": "/FurnitureStore/static/media/comedor1.525ce3b8.webp",
+    "static/media/comedor2.9f738f97.webp": "/FurnitureStore/static/media/comedor2.9f738f97.webp",
+    "static/media/comedor3.09105cc2.webp": "/FurnitureStore/static/media/comedor3.09105cc2.webp",
+    "static/media/comedor4.bd088fcc.webp": "/FurnitureStore/static/media/comedor4.bd088fcc.webp",
+    "static/media/comedor5.285e2f13.webp": "/FurnitureStore/static/media/comedor5.285e2f13.webp",
+    "static/media/comedor6.47c61667.webp": "/FurnitureStore/static/media/comedor6.47c61667.webp",
+    "static/media/comedor7.59a7b647.webp": "/FurnitureStore/static/media/comedor7.59a7b647.webp",
+    "static/media/edificio.846ee6ac.webp": "/FurnitureStore/static/media/edificio.846ee6ac.webp",
+    "static/media/logointerm.ef357807.webp": "/FurnitureStore/static/media/logointerm.ef357807.webp",
+    "static/media/portada2.864aa962.webp": "/FurnitureStore/static/media/portada2.864aa962.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4632ca10.js",
+    "static/js/2.2c62bb53.chunk.js",
+    "static/css/main.af0973ba.chunk.css",
+    "static/js/main.9199f85b.chunk.js"
+  ]
+}
