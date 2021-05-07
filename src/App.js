@@ -6,7 +6,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Route path='/' component={inicio} exact/>
       </div>
