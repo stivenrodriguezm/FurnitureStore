@@ -44,7 +44,7 @@ function ComedoresCS() {
                         )})                        
                     }
                    <div>
-                       <p className="cerrar" onClick={cerrar}>CERRAR</p>
+                       <p className="cerrar" onClick={cerrar}>X</p>
                     </div>
                     <button onClick={rightBig} className="btnScroll">
                         <RiArrowRightSLine />
