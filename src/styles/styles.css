@@ -19,6 +19,36 @@ p{
     margin: 0 auto;
 }
 
+@media (max-width: 576px){
+    .container{
+        max-width: auto;
+    }
+}
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+
+/* HEADER */
+
+
 header{
     width: 100%;
     height: 110px;
@@ -38,6 +68,13 @@ header{
     align-items: center;
 }
 
+.logoImg{
+    height: 39px;
+}
+
+.menuHeader{
+    display: none;
+}
 .menuHeader a{
     margin-left: 30px;
     cursor: pointer;
@@ -51,31 +88,109 @@ header{
     color: rgb(255, 230, 0);
 }
 
-/* portada */
-#inicio{
-    scroll-margin-top: 10em;
+/* menu mobile */
+.menuHeaderMobile{
+    background-color: rgba(60, 62, 70, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
 }
+
+.divMenuMobile p{
+    display: block;
+}
+.logoMenu{
+    display: block;
+    font-size: 32px;
+    margin: 20px 20px 0 0;
+}
+.menuGrandeMobile{
+    display: none;
+    flex-direction: column;
+    padding: 40px 0;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 300px;
+    height: 150px;
+    background-color: rgba(22, 11, 59, 0.8);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.menuGrandeMobile a{
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logoMenuMobile{
+    position: fixed;
+    top: 37px;
+    right: 14px;
+    font-size: 45px;
+    color: white;
+    z-index: 10;
+    transition: 1.5s;
+}
+@media (min-width: 576px){
+    .logoImg{
+        height: 45px;
+    }
+
+}
+@media (min-width: 768px){
+    .logoImg{
+        height: 50px;
+    }
+}
+@media (min-width: 992px){
+    .logoImg{
+        height: 55px;
+    }
+}
+@media (min-width: 1200px){
+    .logoImg{
+        height: 60px;
+    }
+}
+@media (min-width: 992px){
+    .menuHeader{
+        display: block;
+    }
+    .divMenuMobile{
+        display: none;
+    }
+}
+
+
+/* portada */
 
 .divPortada{
-    width: 100%;
-    height: 90vh;
+    height: 750px;
 }
-
 .fotoPortada{
-    margin-top: 110px;
+    height: 100%;
     width: 100%;
-    max-height: 100%;
     object-fit: cover;
-    object-position: 0 -30vh;
 }
-
+.fotoPortada img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: -18vh 5vh;
+}
 .textoPortada{
-    background-color: rgba(60, 62, 70, 0.7);
-    height: 140px;
-    width: 40%;
-    margin: 0 auto;
     position: relative;
-    top: -200px;
+    top: -260px;
+    font-size: 12px;
+    background-color: rgba(60, 62, 70, 0.7);
+    height: 80px;
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     color: white;
@@ -89,9 +204,59 @@ header{
     -webkit-text-fill-color: transparent;
 }
 
+@media (min-width: 576px){
+    .divPortada{
+        height: 100vh;
+    }
+    .fotoPortada img{
+        height: 100%;
+        width: 100%;
+        object-position: -200px -30px;
+    }
+    .textoPortada{
+        height: 140px;
+        width: 40%;
+        top: -200px;
+    }
+}
+@media (min-width: 768px){
+    .fotoPortada img{
+        object-position: -100px -40px;
+    }
+}
+@media (min-width: 900px){
+    .fotoPortada img{
+        object-position: 0px 0px;
+    }
+}
+@media (min-width: 992px){
+    .fotoPortada img{
+        object-position: 0px -40px;
+    }
+}
+@media (min-width: 1200px){
+    .fotoPortada{
+        max-height: 1200px;
+    }
+    .fotoPortada img{
+        object-position: 0 -115px;
+    }
+    .textoPortada{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1350px){
+    .fotoPortada img{
+        object-position: 0 -150px;
+    }
+}
+
 /* catalogo seccionado */
+
+
 #catalogoSeccionado{
-    scroll-margin-top: 10em;
+    scroll-margin-top: 9em;
+    margin-top: -280px;
 }
 .titloCatalogoInicio{
     font-size: 30px;
@@ -103,34 +268,16 @@ header{
 }
 
 .divContainerCS{
-    margin-left: 140px;
+    height: 900px;
+    margin: 0 15px 0 15px;
 }
-.comedoresCS{
-    margin-top: 320px;
-}
+
 .comedoresCS:first-of-type{
     margin-top: 25px;
 }
-
-.divImagenCS{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    overflow-x: scroll;
-    max-width: 80%;
-    scroll-behavior: smooth;
-    z-index: 0;
-    height: 305px;
-    align-items: center;
+.divCSmargin{
+    margin-top: 350px;
 }
-.divImagenCS::-webkit-scrollbar {
-    display: none;
-}
-
-.divImagenCS div:last-of-type button{
-    margin-right: 50px;
-}
-
 .btnGaleria{
     border: none;
     background: none;
@@ -140,81 +287,198 @@ header{
     padding: 0;
     transition: .7s;
 }
-.btnGaleria:hover{
-    width: 300px;
-    height: 300px;
+    .galeria{
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(60, 62, 70, 0.7);
+        display: flex;
+        align-items: center;
+    }
+    .noneDisplay{
+        display: none;
+    }
+    .active{
+        display: block;
+        height: 90vh;
+        z-index: 1 !important;
+        position: static !important;
+        margin: 0 auto;
+    }
+    .cerrar{
+        position: fixed;
+        top: 0;
+        color: white;
+    }
+    .btnScroll{
+        background: none;
+        border: none;
+    }
+
+    .btnLeft{
+        height: 120px;
+        margin-top: 10px;
+        float: left;
+        margin-left: -38px;
+        width: 50px;
+        font-size: 40px;
+        display: none;
+    }
+    .divCSmargin{
+        margin-top: 25px;
+    }       
+    .divImagenCS{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        max-width: 90%;
+        scroll-behavior: smooth;
+        z-index: 0;
+        height: 150px;
+        align-items: center;
+    }
+    .divImagenCS::-webkit-scrollbar {
+        display: none;
+    }
+    .divImagenCS div:last-of-type button{
+        margin-right: 50px;
+    }
+    .btnRight{
+        height: 120px;
+        padding: 0;
+        margin-top: 10px;
+        margin-right: 0px;
+        font-size: 40px;
+        width: auto;
+        float: right;
+        margin: -135px -10px 0 0;
+    }
+    .btnGaleria{
+        border: none;
+        background: none;
+        width: 140px;
+        height: 140px;
+        margin: 0 5px;
+        padding: 0;
+        transition: .7s;
+    }
+    .imagenCS{
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        transition: .5s;
+    }
+
+    
+
+@media (min-width: 576px){
+    .titloCatalogoInicio{
+        margin-top: 320px;
+    }
+    .divImagenCS{
+        height: 150px;
+    }
+    .btnGaleria{
+        width: 150px;
+        height: 150px;
+        margin: 0 5px;
+    } 
+    .imagenCS{
+        height: 150px;
+    }   
+    .btnRight{
+        font-size: 50px;
+    }
 }
 
-.imagenCS{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    transition: .5s;
+@media (min-width: 768px){
+    .divImagenCS{
+        height: 200px;
+    }
+    .btnGaleria{
+        width: 200px;
+        height: 200px;
+        margin: 0 5px;
+    }  
+    .imagenCS{
+        height: 200px;
+    }  
+    .btnRight{
+        font-size: 60px;
+        margin: -165px 0px 0 0;
+    }
 }
-
-.imagenCS:hover{
-    width: 300px;
-    height: 300px;
-    cursor: pointer;
+@media (min-width: 992px){
+    .divImagenCS{
+        height: 240px;
+        margin-left: 4%;
+    }
+    .btnGaleria{
+        width: 200px;
+        height: 200px;
+        margin: 0 5px;
+    }  
+    .btnLeft{
+        display: block;
+        font-size: 60px;
+        margin: -185px 0 0 -1%;
+    }
+    .btnRight{
+        margin: -185px 0 0 -1%;
+    }
+    .imagenCS{
+        height: 200px;
+    }  
+    #catalogoSeccionado h2{
+        margin-left: 45px;
+    }
+    .btnGaleria:hover{
+        width: 240px;
+        height: 240px;
+        cursor: pointer;
+    }
+    .imagenCS:hover{
+        height: 240px;
+    }  
 }
-
-.btnScroll{
-    position:static;
-    top: 0;
-    height: 250px;
-    border: none;
-    color: white;
-    width: 100px;
-    background: none;
-    font-size: 60px;
-    color: #072146;
+@media (min-width: 1200px){
+    .divImagenCS{
+        height: 300px;
+        margin: 0 auto;
+        max-width: 85%;
+    }
+    .btnGaleria{
+        width: 250px;
+        height: 250px;
+        margin: 0 5px;
+    }  
+    .imagenCS{
+        height: 250px;
+    }  
+    .btnLeft{
+        margin: -210px 0 0 2%;
+    }
+    .btnRight{
+        margin: -210px 2% 0 0;
+    }
+    .divCSgeneral{
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+    #catalogoSeccionado h2{
+        margin-left: 7.8%;
+    }
+    .btnGaleria:hover{
+        width: 300px;
+        height: 300px;
+    }
+    .imagenCS:hover{
+        height: 300px;
+    }
 }
-
-.btnLeft{
-    float: left;
-    margin-left: -80px;
-}
-
-.btnRight{
-    float: right;
-    margin-right: 80px;
-}
-
-.divCSmargin{
-    margin-top: 350px;
-}
-
-.galeria{
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(60, 62, 70, 0.7);
-    display: flex;
-    align-items: center;
-}
-.noneDisplay{
-    display: none;
-}
-.active{
-    display: block;
-    height: 90vh;
-    z-index: 1 !important;
-    position: static !important;
-    margin: 0 auto;
-}
-
-
-
-.cerrar{
-    position: fixed;
-    top: 0;
-    color: white;
-}
-
-
 
 /* Nosotros */
 #nosotros{
@@ -229,10 +493,12 @@ header{
     background-attachment: fixed;
     height: auto;
     color: white;
+    background-position: -90px 25px;
 }
 
+
 .nosotros{
-    margin-top: 340px;
+    margin-top: 40px;
     text-align: center;
     font-size: 30px;
     background-color: rgba(0,0,0, .6);
@@ -247,12 +513,13 @@ header{
 
 .divNosotros{
     display: flex;
+    flex-direction: column;
     margin-top: 80px;
     align-items: center;
 }
 
 .edificio{
-    width: 48%;
+    width: 95%;
 }
 .edificio img{
     border: 3px solid #104b9c;
@@ -260,10 +527,12 @@ header{
 }
 
 .textoNosotros{
-    width: 45%;
+    width: 85%;
     margin: 0 auto;
     font-family: 'Signika', sans-serif;
-    font-size: 21px;
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 30px;
 }
 
 .NosotrosDos{
@@ -275,11 +544,12 @@ header{
 
 .nosotrosAtributo{
     margin-top: 20px;
-    width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .nosotrosAtributo svg{
@@ -299,6 +569,86 @@ header{
 
 .lessMargin{
     margin-top: -15px;
+}
+
+    .edificio{
+        width: 90%;
+    }
+    .textoNosotros{
+        margin-top: 0;
+        width: 90%;
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .NosotrosDos{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .nosotrosAtributo{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .nosotrosAtributo svg{
+        font-size: 100px;
+    }
+    .nosotrosAtributo h4{
+        margin-top: 20px;
+    }
+    
+
+
+@media (min-width: 576px){
+    .nosotrosAtributo{
+        width: 50%;
+    }
+    .nosotrosAtributo p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px){
+    .nosotros{
+        margin-top: 250px;
+    }
+    .divNosotros{
+        max-width: 80%;
+        margin-top: 40px;
+    }
+    .nosotrosContainer{
+        background-position: 0;
+    }
+    .NosotrosDos{
+        flex-direction: row;
+    }
+    .nosotrosAtributo{
+        width: 30%;
+    }
+    .textoNosotros{
+        margin-top: 25px;
+    }
+}
+@media (min-width: 992px){
+    .nosotros{
+        margin-top: 400px;
+    }
+    .divNosotros{
+        max-width: 1200px;
+        flex-direction: row;
+        padding: 25px 0;
+    }
+    .edificio{
+        max-width: 45%;
+        margin: 0 auto;
+    }
+    .textoNosotros{
+        max-width: 45%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 1200px){
+    .nosotros{
+        margin-top: 630px;
+    }
 }
 
 /* por que nosotros */
@@ -340,6 +690,20 @@ header{
     margin-bottom: 25px;
 }
 
+
+@media (max-width: 576px){
+    .divPQNosotros{
+        flex-direction: column-reverse;
+    }
+    .divPQNosotros ul,
+    .divPQNosotros img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .divPQNosotros ul{
+        padding: 45px 0 0;
+    }
+}
 
 
 /* CONTACTANOS */
@@ -418,6 +782,21 @@ header{
     font-weight: bold;
 }
 
+@media (max-width: 576px){
+    .displayFlex{
+        flex-direction: column-reverse;
+    }
+    .formulario{
+        width: 90%;
+    }
+    .contactanosTexto{
+        width: 90%;
+        margin: 0 auto 25px;
+    }
+    .contactanosTexto p:first-child{
+        display: none;
+    }
+}
 
 /* Footer */
 

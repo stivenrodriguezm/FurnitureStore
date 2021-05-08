@@ -20,7 +20,7 @@ function SalasCS() {
     }
     
     return (
-        <div  className="divCSmargin animado">
+        <div  className="divCSmargin animado divCSgeneral">
             <div className="comedoresCS">
                 <h2 key="titulo">Salas</h2>
                 <div className="divImagenCS" id="divImagenCSsalas">
@@ -35,23 +35,6 @@ function SalasCS() {
                             )
                         })
                     }
-                </div>
-                <div className="noneDisplay" id="galeria">
-                    <button onClick={leftBig} className="btnScroll">
-                        <RiArrowLeftSLine/>
-                    </button>
-                    {
-                        Comedores.map((item) => {
-                            return(
-                            <img src={item[0]} className="noneDisplay" key={item[4]} id={item[3]} alt={item[2]}></img>
-                        )})                        
-                    }
-                   <div>
-                       <p className="cerrar" onClick={cerrar}>CERRAR</p>
-                    </div>
-                    <button onClick={rightBig} className="btnScroll">
-                        <RiArrowRightSLine />
-                    </button>
                 </div>
             </div>
             <button onClick={left} className="btnScroll btnLeft">

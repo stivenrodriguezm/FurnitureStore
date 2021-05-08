@@ -18,7 +18,7 @@ function ComedoresCS() {
     }
     return (
         <div>
-            <div className="comedoresCS animado">
+            <div className="comedoresCS animado divCSgeneral">
                 <h2 key="titulo">Comedores</h2>
                 <div className="divImagenCS" id="divImagenCS">
                     {
@@ -50,13 +50,13 @@ function ComedoresCS() {
                         <RiArrowRightSLine />
                     </button>
                 </div>
+                <button onClick={left} className="btnScroll btnLeft">
+                    <RiArrowLeftSLine/>
+                </button>
+                <button onClick={right} className="btnScroll btnRight">
+                    <RiArrowRightSLine />
+                </button>
             </div>
-            <button onClick={left} className="btnScroll btnLeft">
-                <RiArrowLeftSLine/>
-            </button>
-            <button onClick={right} className="btnScroll btnRight">
-                <RiArrowRightSLine />
-            </button>
         </div>
     )
 }

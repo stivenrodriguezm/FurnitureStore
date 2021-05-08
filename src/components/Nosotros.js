@@ -5,7 +5,7 @@ import fotoSala from '../static/INTERMUEBLES19.webp'
 
 function Nosotros() {
     return (
-        <div>
+        <div id="seccionNosotros">
             <div className="nosotrosContainer" id="nosotros">
                 <div className="nosotros">
                     <h4 className="animado">Sobre Nosotros</h4>
@@ -14,10 +14,10 @@ function Nosotros() {
                             <img src={edificio} alt="Foto almacen Intermuebles"></img>
                         </div>
                         <div className="textoNosotros">
-                        Nos dedicamos a llenar tus espacios con diseño y calidad para que en tus momentos familiares y con amigos nunca falten el estilo y elegancia que te caracterizan
-                        <br></br>
-                        <br></br>
-                        Desde el año 1992 estamos entregando muebles exclusivos y diseños armónicos en todo el territorio nacional. Contamos con un equipo comprometido con satisfacer tus necesidades y asesorarte para que elijas los materiales, colores y diseños que mejor se adapten a tu estilo.
+                            Nos dedicamos a llenar tus espacios con diseño y calidad para que en tus momentos familiares y con amigos nunca falten el estilo y elegancia que te caracterizan
+                            <br></br>
+                            <br></br>
+                            Desde el año 1992 estamos entregando muebles exclusivos y diseños armónicos en todo el territorio nacional. Contamos con un equipo comprometido con satisfacer tus necesidades y asesorarte para que elijas los materiales, colores y diseños que mejor se adapten a tu estilo.
                         </div>
                     </div>
                 </div>
