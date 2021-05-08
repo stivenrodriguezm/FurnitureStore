@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FurnitureStore/static/css/main.af0973ba.chunk.css",
-    "main.js": "/FurnitureStore/static/js/main.8d7f2ca0.chunk.js",
-    "main.js.map": "/FurnitureStore/static/js/main.8d7f2ca0.chunk.js.map",
-    "runtime-main.js": "/FurnitureStore/static/js/runtime-main.4632ca10.js",
-    "runtime-main.js.map": "/FurnitureStore/static/js/runtime-main.4632ca10.js.map",
-    "static/js/2.2c62bb53.chunk.js": "/FurnitureStore/static/js/2.2c62bb53.chunk.js",
-    "static/js/2.2c62bb53.chunk.js.map": "/FurnitureStore/static/js/2.2c62bb53.chunk.js.map",
-    "static/js/3.84a29d1c.chunk.js": "/FurnitureStore/static/js/3.84a29d1c.chunk.js",
-    "static/js/3.84a29d1c.chunk.js.map": "/FurnitureStore/static/js/3.84a29d1c.chunk.js.map",
+    "main.css": "/FurnitureStore/static/css/main.e0b29a2b.chunk.css",
+    "main.js": "/FurnitureStore/static/js/main.d2032ffd.chunk.js",
+    "main.js.map": "/FurnitureStore/static/js/main.d2032ffd.chunk.js.map",
+    "runtime-main.js": "/FurnitureStore/static/js/runtime-main.d7561c37.js",
+    "runtime-main.js.map": "/FurnitureStore/static/js/runtime-main.d7561c37.js.map",
+    "static/js/2.e9731c85.chunk.js": "/FurnitureStore/static/js/2.e9731c85.chunk.js",
+    "static/js/2.e9731c85.chunk.js.map": "/FurnitureStore/static/js/2.e9731c85.chunk.js.map",
+    "static/js/3.34f4891f.chunk.js": "/FurnitureStore/static/js/3.34f4891f.chunk.js",
+    "static/js/3.34f4891f.chunk.js.map": "/FurnitureStore/static/js/3.34f4891f.chunk.js.map",
     "index.html": "/FurnitureStore/index.html",
-    "static/css/main.af0973ba.chunk.css.map": "/FurnitureStore/static/css/main.af0973ba.chunk.css.map",
-    "static/js/2.2c62bb53.chunk.js.LICENSE.txt": "/FurnitureStore/static/js/2.2c62bb53.chunk.js.LICENSE.txt",
+    "static/css/main.e0b29a2b.chunk.css.map": "/FurnitureStore/static/css/main.e0b29a2b.chunk.css.map",
+    "static/js/2.e9731c85.chunk.js.LICENSE.txt": "/FurnitureStore/static/js/2.e9731c85.chunk.js.LICENSE.txt",
     "static/media/INTERMUEBLES19.65569c57.webp": "/FurnitureStore/static/media/INTERMUEBLES19.65569c57.webp",
     "static/media/styles.css": "/FurnitureStore/static/media/INTERMUEBLES85.52131dd3.webp",
     "static/media/comedor1.525ce3b8.webp": "/FurnitureStore/static/media/comedor1.525ce3b8.webp",
@@ -26,9 +26,9 @@
     "static/media/portada2.864aa962.webp": "/FurnitureStore/static/media/portada2.864aa962.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.4632ca10.js",
-    "static/js/2.2c62bb53.chunk.js",
-    "static/css/main.af0973ba.chunk.css",
-    "static/js/main.8d7f2ca0.chunk.js"
+    "static/js/runtime-main.d7561c37.js",
+    "static/js/2.e9731c85.chunk.js",
+    "static/css/main.e0b29a2b.chunk.css",
+    "static/js/main.d2032ffd.chunk.js"
   ]
 }
