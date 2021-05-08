@@ -6,12 +6,6 @@ const app = express()
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
 
-app.get('/', function(req, res) {
-    res.render('client/public/index', function (err, html) {
-        console.log("ÑOL")
-        res.send(html)
-      })
-  })
 
 app.post("/api/form", (req,res) => {
     nodemailer.createTestAccount((err, account) => {
