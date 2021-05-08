@@ -5,7 +5,7 @@ const app = express()
 
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
-app.get('/', (req, res) => { res.send('Hello from Express!'))
+app.get('/', (req, res) => { res.send('Hello from Express!')})
 
 app.post("/api/form", (req,res) => {
     nodemailer.createTestAccount((err, account) => {
