@@ -7,7 +7,7 @@ app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
 
 app.get('/', function(req, res) {
-    console.log("LOL")
+    res.send('LOL')
   })
 
 app.post("/api/form", (req,res) => {
