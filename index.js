@@ -9,6 +9,7 @@ app.use(bodyparser.urlencoded({extended:false}))
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname, 'client/public/index.html'), function(err) {
       if (err) {
+          console.log("LOL")
         res.status(500).send(err)
       }
     })
