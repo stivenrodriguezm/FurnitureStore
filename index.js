@@ -6,10 +6,11 @@ const app = express()
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
 
-app.get('/*', function(req, res) {
+app.get('/', function(req, res) {
     console.log("LOL")
     res.sendFile(path.join(__dirname, 'client/public/index.html'), function(err) {
-      if (err) {
+        if (err) {
+          console.log("LOL2")
         res.status(500).send(err)
       }
     })
