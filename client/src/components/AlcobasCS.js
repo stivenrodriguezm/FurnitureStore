@@ -1,19 +1,19 @@
 import React from 'react'
 import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri"
 import Comedores from '../array/Comedores'
-import {galeria,leftBig,cerrar,rightBig} from './FuncionesGaleria'
+import {galeria} from './FuncionesGaleria'
 
-function AccesoriosCS() {
+function AlcobasCS() {
 
 
     function right() {
-        let comedoresDiv = document.getElementById("divImagenCSaccesorios")
+        let comedoresDiv = document.getElementById("divImagenCSalcobas")
         return(
             comedoresDiv.scrollLeft += 180
             )
         }
         function left() {
-        let comedoresDiv = document.getElementById("divImagenCSaccesorios")
+        let comedoresDiv = document.getElementById("divImagenCSalcobas")
         return(
             comedoresDiv.scrollLeft -= 180
         )
@@ -22,8 +22,8 @@ function AccesoriosCS() {
     return (
         <div className="divCSmargin animado divCSgeneral">
             <div className="comedoresCS">
-                <h2 key="titulo">Accesorios</h2>
-                <div className="divImagenCS" id="divImagenCSaccesorios">
+                <h2 key="titulo">Alcobas</h2>
+                <div className="divImagenCS" id="divImagenCSalcobas">
                     {
                         Comedores.map((item) => {
                             return(
@@ -45,7 +45,6 @@ function AccesoriosCS() {
             </button>
         </div>
     )
-    
 }
 
-export default AccesoriosCS
+export default AlcobasCS

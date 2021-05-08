@@ -250,6 +250,8 @@ header{
     scroll-margin-top: 9em;
     margin-top: -280px;
 }
+#catalogoSeccionado::-webkit-full-page-media{ padding-top: 130px;}
+
 .titloCatalogoInicio{
     font-size: 30px;
     text-align: center;
@@ -547,6 +549,7 @@ header{
 #nosotros{
     scroll-margin-top: 5em;
 }
+#nosotros::-webkit-full-page-media{ padding-top: 130px;}
 
 .nosotrosContainer{
     background-image: url(../static/INTERMUEBLES85.webp);
@@ -765,6 +768,8 @@ header{
 #contactanos{
     scroll-margin-top: 10em;
 }
+#contactanos::-webkit-full-page-media{ padding-top: 130px;}
+
 .displayFlex{
     display: flex;
 }
@@ -871,4 +876,13 @@ header{
 .animado{
     opacity: 0;
     transition: all 2s;
+}
+
+.envioExitoso{
+    background-color: rgba(80, 224, 61, 0.2);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    display: none;
 }
