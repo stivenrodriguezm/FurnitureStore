@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FurnitureStore/static/css/main.e0b29a2b.chunk.css",
-    "main.js": "/FurnitureStore/static/js/main.d2032ffd.chunk.js",
-    "main.js.map": "/FurnitureStore/static/js/main.d2032ffd.chunk.js.map",
+    "main.css": "/FurnitureStore/static/css/main.4de00220.chunk.css",
+    "main.js": "/FurnitureStore/static/js/main.2308030c.chunk.js",
+    "main.js.map": "/FurnitureStore/static/js/main.2308030c.chunk.js.map",
     "runtime-main.js": "/FurnitureStore/static/js/runtime-main.d7561c37.js",
     "runtime-main.js.map": "/FurnitureStore/static/js/runtime-main.d7561c37.js.map",
     "static/js/2.e9731c85.chunk.js": "/FurnitureStore/static/js/2.e9731c85.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.34f4891f.chunk.js": "/FurnitureStore/static/js/3.34f4891f.chunk.js",
     "static/js/3.34f4891f.chunk.js.map": "/FurnitureStore/static/js/3.34f4891f.chunk.js.map",
     "index.html": "/FurnitureStore/index.html",
-    "static/css/main.e0b29a2b.chunk.css.map": "/FurnitureStore/static/css/main.e0b29a2b.chunk.css.map",
+    "static/css/main.4de00220.chunk.css.map": "/FurnitureStore/static/css/main.4de00220.chunk.css.map",
     "static/js/2.e9731c85.chunk.js.LICENSE.txt": "/FurnitureStore/static/js/2.e9731c85.chunk.js.LICENSE.txt",
     "static/media/INTERMUEBLES19.65569c57.webp": "/FurnitureStore/static/media/INTERMUEBLES19.65569c57.webp",
     "static/media/styles.css": "/FurnitureStore/static/media/INTERMUEBLES85.52131dd3.webp",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.d7561c37.js",
     "static/js/2.e9731c85.chunk.js",
-    "static/css/main.e0b29a2b.chunk.css",
-    "static/js/main.d2032ffd.chunk.js"
+    "static/css/main.4de00220.chunk.css",
+    "static/js/main.2308030c.chunk.js"
   ]
 }
