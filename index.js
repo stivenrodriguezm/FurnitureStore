@@ -5,7 +5,7 @@ const app = express()
 
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
-
+/*
 app.get('/', function(req, res) {
     console.log("LOL")
     res.sendFile(path.join(__dirname, 'client/public/index.html'), function(err) {
@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
         res.status(500).send(err)
       }
     })
-  })
+  })*/
 
 app.post("/api/form", (req,res) => {
     nodemailer.createTestAccount((err, account) => {
