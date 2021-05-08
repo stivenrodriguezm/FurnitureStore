@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
+//import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 import Comedores from '../array/Comedores'
 import {galeria,leftBig,cerrar,rightBig} from './FuncionesGaleria'
 
@@ -35,7 +35,7 @@ function ComedoresCS() {
                 </div>
                 <div className="noneDisplay galeriaDiv" id="galeria">
                     <button onClick={leftBig} className="btnScroll randomLeft">
-                        <RiArrowLeftSLine/>
+                    <p>icono</p>
                     </button>
                     {
                         Comedores.map((item) => {
@@ -47,14 +47,14 @@ function ComedoresCS() {
                        <p className="cerrar" onClick={cerrar}>X</p>
                     </div>
                     <button onClick={rightBig} className="btnScroll randomRight">
-                        <RiArrowRightSLine />
+                    <p>icono</p>
                     </button>
                 </div>
                 <button onClick={left} className="btnScroll btnLeft">
-                    <RiArrowLeftSLine/>
+                <p>icono</p>
                 </button>
                 <button onClick={right} className="btnScroll btnRight">
-                    <RiArrowRightSLine />
+                <p>icono</p>
                 </button>
             </div>
         </div>

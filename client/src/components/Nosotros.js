@@ -1,6 +1,6 @@
 import React from 'react'
 import edificio from '../static/edificio.webp'
-import { FaShieldAlt, FaUserShield, FaTruckLoading } from "react-icons/fa";
+//import { FaShieldAlt, FaUserShield, FaTruckLoading } from "react-icons/fa";
 import fotoSala from '../static/INTERMUEBLES19.webp'
 
 function Nosotros() {
@@ -24,17 +24,17 @@ function Nosotros() {
                 <div className="nosotrosDosP">
                     <div className="container NosotrosDos animado">
                         <div className="nosotrosAtributo">
-                            <FaShieldAlt/>
+                        <p>icono</p>
                             <h4>Calidad Garantizada</h4>
                             <p>Maderas seleccionadas y materiales de la mejor calidad</p>
                         </div>
                         <div className="nosotrosAtributo">
-                            <FaUserShield/>
+                        <p>icono</p>
                             <h4>Seguridad</h4>
                             <p>Contamos con un equipo de expertos dispuestos a solucionar tus dudas y a brindarte la mejor atención</p>
                         </div>
                         <div className="nosotrosAtributo">
-                            <FaTruckLoading/>
+                        <p>icono</p>
                             <h4>Transporte e Instalación Gratis</h4>
                             <p className="lessMargin">Por compras superiores a $1'000.000 en la ciudad de Bogotá</p>
                         </div>

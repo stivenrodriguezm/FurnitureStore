@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri"
+//import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri"
 import Comedores from '../array/Comedores'
 import {galeria} from './FuncionesGaleria'
 
@@ -38,10 +38,10 @@ function AlcobasCS() {
                 </div>
             </div>
             <button onClick={left} className="btnScroll btnLeft">
-                <RiArrowLeftSLine/>
+            <p>icono</p>
             </button>
             <button onClick={right} className="btnScroll btnRight">
-                <RiArrowRightSLine />
+            <p>icono</p>
             </button>
         </div>
     )
