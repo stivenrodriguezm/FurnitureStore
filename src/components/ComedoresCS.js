@@ -33,20 +33,20 @@ function ComedoresCS() {
                         })
                     }
                 </div>
-                <div className="noneDisplay" id="galeria">
-                    <button onClick={leftBig} className="btnScroll">
+                <div className="noneDisplay galeriaDiv" id="galeria">
+                    <button onClick={leftBig} className="btnScroll randomLeft">
                         <RiArrowLeftSLine/>
                     </button>
                     {
                         Comedores.map((item) => {
                             return(
-                            <img src={item[0]} className="noneDisplay" key={item[4]} id={item[3]} alt={item[2]}></img>
+                            <img src={item[0]} className="noneDisplay imagenGrande" key={item[4]} id={item[3]} alt={item[2]}></img>
                         )})                        
                     }
                    <div>
                        <p className="cerrar" onClick={cerrar}>X</p>
                     </div>
-                    <button onClick={rightBig} className="btnScroll">
+                    <button onClick={rightBig} className="btnScroll randomRight">
                         <RiArrowRightSLine />
                     </button>
                 </div>
