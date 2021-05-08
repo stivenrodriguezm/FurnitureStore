@@ -5,7 +5,6 @@ const app = express()
 
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
-app.get('/', (req, res) => { res.send('Hello from Express!')})
 
 app.post("/api/form", (req,res) => {
     nodemailer.createTestAccount((err, account) => {
@@ -50,3 +49,4 @@ const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
     console.log(`Servidor a la escucha en el puesto ${PORT}`);
 });
+
