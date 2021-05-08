@@ -27,7 +27,7 @@ function CatalogoSeccionado() {
 
     return (
         <div id="catalogoSeccionado">
-            <h3 className="container titloCatalogoInicio">Catalogo de <span>Muebles</span></h3>
+            <h3 className="container titloCatalogoInicio">Catálogo de <span>Muebles</span></h3>
             <div className="divContainerCS">
                 <ComedoresCS />
                 <AlcobasCS />
