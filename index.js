@@ -7,9 +7,9 @@ app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
 
 app.get('/*', function(req, res) {
+    console.log("LOL")
     res.sendFile(path.join(__dirname, 'client/public/index.html'), function(err) {
       if (err) {
-          console.log("LOL")
         res.status(500).send(err)
       }
     })
