@@ -47,11 +47,12 @@ class App extends Component {
                 nombre,
                 email,
                 mensaje
-            }).then((response) => {
-                const envio = document.getElementsByClassName("envioExitoso")[0].style.display = "block"
-                const formulario = document.getElementsByClassName("formulario")[0].firstChild.reset()   
             })
+
+            const envio = document.getElementsByClassName("envioExitoso")[0].style.display = "block"
+            const formulario = document.getElementsByClassName("formulario")[0].firstChild.reset()   
         }
+        
     
 
     render(){
