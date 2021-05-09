@@ -17,9 +17,13 @@ app.get('/lolo', function (req, res) {
 });
 
 
-
+app.post("/api/lole", (req,res) => {
+    res.send('POST request to the homepage'),
+    console.log("Mensaje enviado prro")
+})
 
 app.post("/api/form", (req,res) => {
+    console.log("LOLAISHON")
     nodemailer.createTestAccount((err, account) => {
         const htmlEmail = `
             <h3>Email enviado desde React</h3>
@@ -31,8 +35,6 @@ app.post("/api/form", (req,res) => {
             <p>${req.body.mensaje}</p>
         `
         let transporter = nodemailer.createTransport({
-            //host: "smtp.gmail.com",
-            //port: 587,
             service: 'gmail',
             auth:{
                 user: "stivenrodriguez1996m@gmail.com",
