@@ -2,6 +2,7 @@ import React, {Component} from "react"
 import axios from "axios"
 
 class App extends Component {
+    //"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
     exitos(e) {
         e.preventDefault()
         let envio = document.getElementsByClassName("envioExitoso")[0]
