@@ -2,14 +2,28 @@ const express = require("express")
 const path = require('path')
 const bodyparser = require("body-parser")
 const nodemailer = require("nodemailer")
+const cors = require("cors")
 const app = express()
+
+const whitelist = ["http://localhost:3000", "http://localhost:3001", "https://servidorintermuebles.herokuapp.com"]
+const corsOptions = {
+    origin: function (origin, callback) {
+        console.log("** Origin of request " + origin)
+        if(whitelist.indexOf(origin) !== -1 || !origin){
+            console.log("origin acceptable")
+        } else {
+            console.log("Origin rejected")
+            callback(new Error('Not allowed by CORS'))
+        }
+    }
+}
 
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended:false}))
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-app.get('/', function (req, res) {
+app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 app.get('/lolo', function (req, res) {
