@@ -1,6 +1,7 @@
 import React from 'react'
 import logointerm from '../static/logointerm.webp' 
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 
 function Header() {
@@ -34,11 +35,11 @@ function Header() {
                     </div>
                     <div className="divMenuMobile">
                         <div className="logoMenu" onClick={abrirMenu}>
-                            <p>icono</p>       
+                            <GiHamburgerMenu/>       
                         </div>
                         <div className="menuHeaderMobile"  onClick={cerrarMenu}>
                             <div className="logoMenuMobile" onClick={cerrarMenu}>
-                            <p>icono</p>     
+                                <IoClose/>  
                             </div>
                             <div className="menuGrandeMobile">
                                 <a href="#inicio"  onClick={cerrarMenu}>Inicio</a>

@@ -248,6 +248,7 @@ header{
 
 #catalogoSeccionado{
     scroll-margin-top: 9em;
+    scroll-snap-margin-top: 9em;
     margin-top: -280px;
 }
 #catalogoSeccionado::-webkit-full-page-media{ padding-top: 130px;}
@@ -548,6 +549,7 @@ header{
 /* Nosotros */
 #nosotros{
     scroll-margin-top: 5em;
+    scroll-snap-margin-top: 5em;
 }
 #nosotros::-webkit-full-page-media{ padding-top: 130px;}
 
@@ -767,6 +769,7 @@ header{
 /* CONTACTANOS */
 #contactanos{
     scroll-margin-top: 10em;
+    scroll-snap-margin-top: 10em;
 }
 #contactanos::-webkit-full-page-media{ padding-top: 130px;}
 

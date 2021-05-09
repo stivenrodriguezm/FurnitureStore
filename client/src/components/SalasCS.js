@@ -1,5 +1,5 @@
 import React from 'react'
-//import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri"
+import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri"
 import Comedores from '../array/Comedores'
 import {galeria} from './FuncionesGaleria'
 
@@ -38,10 +38,10 @@ function SalasCS() {
                 </div>
             </div>
             <button onClick={left} className="btnScroll btnLeft">
-            <p>icono</p>
+                <RiArrowLeftSLine/>
             </button>
             <button onClick={right} className="btnScroll btnRight">
-            <p>icono</p>
+                <RiArrowRightSLine />
             </button>
         </div>
     )
