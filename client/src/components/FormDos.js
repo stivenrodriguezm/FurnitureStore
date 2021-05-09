@@ -41,10 +41,10 @@ class App extends Component {
     
         async enviarEmail(e) {
             e.preventDefault()
-            //const envio = document.getElementsByClassName("envioExitoso")[0].style.display = "block"
-            //const formulario = document.getElementsByClassName("formulario")[0].firstChild.reset()   
+            const envio = document.getElementsByClassName("envioExitoso")[0].style.display = "block"
+            const formulario = document.getElementsByClassName("formulario")[0].firstChild.reset()   
             const {nombre,email,mensaje} = this.state
-            const form =  axios.post("/api/form",{
+            const form = axios.post("/api/form",{
                 nombre,
                 email,
                 mensaje
