@@ -52,7 +52,9 @@ app.post("/api/form", (req,res) => {
             <p>${req.body.mensaje}</p>
         `
         let transporter = nodemailer.createTransport({
-            service: 'gmail',
+            host: 'smtp.gmail.com',
+            port: 465,
+            secure: true, 
             auth:{
                 user: "stivenrodriguez1996m@gmail.com",
                 pass: "Bicicleta123"
